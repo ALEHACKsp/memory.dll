@@ -375,7 +375,7 @@ namespace MemoryClass
 
             string theCode = LoadCode(name, path);
 
-            if (theCode == "")
+            if (theCode == string.Empty)
             {
                 //Debug.WriteLine("ERROR: LoadCode returned blank. NAME:" + name + " PATH:" + path);
                 return UIntPtr.Zero;
